@@ -32,7 +32,7 @@ def Entries():
 def Main(): 
     global main_window
     main_window=Tk()
-    main_window.geometry("600x201")
+    main_window.geometry("600x200")
     Labels()
     Entries()
 
