@@ -28,9 +28,6 @@ def Entries():
     Entry_Number_Hired = Entry(main_window)
     Entry_Number_Hired.grid(column=1, row=3, sticky=W+E)
 
-def Buttons():
-    pass
-
 #Creating a function that runs all the other functions
 def Main(): 
     global main_window
